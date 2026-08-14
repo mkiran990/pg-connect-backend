@@ -1,0 +1,13 @@
+name = "pg-connect-backend"
+main = "backend/src/index.ts"
+compatibility_date = "2024-03-20"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pg-connect-db"
+database_id = "5f4f334d-79a3-4b0c-9223-21f7136a45ee"
+
+[vars]
+JWT_SECRET = "pg_connect_secret_jwt_key_2026_safe_hash"
+OWNER_SECRET_KEY = "pg_connect_owner_admin_secret_key"
+GOOGLE_CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID_HERE.apps.googleusercontent.com"
